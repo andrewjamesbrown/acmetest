@@ -1,0 +1,16 @@
+--- # ACME DNS Configuration file
+config:
+  endpoint: https://acme-staging.api.letsencrypt.org
+  email: 'taby1969@fleckens.hu'
+  private_key_path: './letsencrypt.pem'
+  dns_provider: dnsimple
+  dyn:
+    organization: 'MyOrg'
+    username: 'username'
+    token: 'ThisIsNotARealToken'
+  dnsimple:
+    token: 'ThisIsAlsoNotARealToken'
+  domains:
+    - mail.fleckens.hu
+    - web.fleckens.hu
+    
