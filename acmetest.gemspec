@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.email       = 'andrew.j.brown@gmail.com'
   s.files       = ["lib/acmetest.rb"]
   s.homepage    =
-    'http://github.com/andrewjamesbrown/acmetet'
+    'http://github.com/andrewjamesbrown/acmetest'
   s.license       = 'MIT'
 
   s.add_runtime_dependency 'acme-client'
